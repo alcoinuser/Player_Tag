@@ -1,0 +1,11 @@
+main: "jp.alcoinuser.playertag.PlayerTag"
+name: "Player_Tag"
+version: "${project.version}"
+api-version: "1.18"
+
+commands:
+    pt:
+        description: playerheader変更
+        usage: /<command>
+        permission: PlayerTag.pt
+        permission-message: You don't have <permission>
